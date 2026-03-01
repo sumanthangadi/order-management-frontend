@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { Plus, Search, Filter, Edit, Trash2 } from 'lucide-react';
 import { format } from 'date-fns';
 import api from '../api/axios';
-import StatusBadge from '../components/StatusBadge';
 import OrderForm from '../components/OrderForm';
 
 const Orders = () => {
@@ -136,8 +135,8 @@ const Orders = () => {
                                                 value={order.status}
                                                 onChange={(e) => handleStatusChange(order._id, e.target.value)}
                                                 className={`text-xs font-medium rounded-full px-2 py-1 outline-none appearance-none cursor-pointer border-0 ring-1 ring-inset ${order.status === 'pending' ? 'bg-yellow-50 text-yellow-800 ring-yellow-600/20' :
-                                                        order.status === 'ready' ? 'bg-blue-50 text-blue-800 ring-blue-600/20' :
-                                                            'bg-green-50 text-green-800 ring-green-600/20'
+                                                    order.status === 'ready' ? 'bg-blue-50 text-blue-800 ring-blue-600/20' :
+                                                        'bg-green-50 text-green-800 ring-green-600/20'
                                                     }`}
                                             >
                                                 <option value="pending">Pending</option>

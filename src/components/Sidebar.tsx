@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { LayoutDashboard, ShoppingBag, LogOut, Store } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';

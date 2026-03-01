@@ -1,0 +1,8 @@
+src/App.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/Layout.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/components/OrderForm.tsx(1,27): error TS6133: 'useEffect' is declared but its value is never read.
+src/components/Sidebar.tsx(1,1): error TS6133: 'React' is declared but its value is never read.
+src/pages/Dashboard.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/pages/Dashboard.tsx(3,101): error TS6133: 'Legend' is declared but its value is never read.
+src/pages/Orders.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/pages/Orders.tsx(5,1): error TS6133: 'StatusBadge' is declared but its value is never read.
